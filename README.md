@@ -110,9 +110,7 @@ This is my first challenge. I want to improve myself, pactice CSS, tailwindcss o
 
 ### Links
 
-- Solution URL: [In Progress](https://your-solution-url.com)
-- Live Site URL: [In Progress](https://your-live-site-url.com)
-
+- Live Site URL: [https://mjkodkks.github.io/fe-mentor-qrcode/](https://mjkodkks.github.io/fe-mentor-qrcode/)
 
 ### Built with
 
