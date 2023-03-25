@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | QR code component</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            whiteTw: 'hsl(0, 0%, 100%)',
+            lightGray: 'hsl(212, 45%, 89%)',
+            grayishBlue: 'hsl(220, 15%, 55%)',
+            darkBlue: 'hsl(218, 44%, 22%)',
+          },
+          fontSize: {
+            base: ['15px']
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    html {
+      height: 100%;
+    }
+
+    body {
+      font-family: 'Outfit', sans-serif;
+    }
+  </style>
+</head>
+
+<body class="h-full flex justify-center items-center bg-lightGray">
+  <div class="rounded-xl max-w-[320px] p-4 bg-whiteTw shadow-sm">
+    <img src="./images/image-qr-code.png" class="rounded-xl" alt="qrcode">
+    <div class="p-4">
+      <div class="text-darkBlue text-xl font-bold mt-2 text-center ">Imporve your front-end skills by building projects
+      </div>
+      <div class="text-grayishBlue mt-4 text-center text-base">Scan the QE code to visit Frontend Mentor and take your
+        coding skills to the next level</div>
+    </div>
+  </div>
+</body>
+
+</html>
